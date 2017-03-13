@@ -1,4 +1,4 @@
-package oop.task_03_homezoo2;
+package oop.task_02_homezoo;
 
 /**
  * Created by Михаил on 13.03.2017.
