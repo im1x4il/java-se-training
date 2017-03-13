@@ -3,5 +3,11 @@ package oop.task_03_homezoo2;
 /**
  * Created by Михаил on 13.03.2017.
  */
-public class Parrot {
+class Parrot extends Pet {
+    public Parrot(int weight, int legs, String name, Kind kind, Master master ) {
+        super(weight,legs,name,kind, master);
+    }
+    public void canfly() {
+        System.out.println("Catching mice...");
+    }
 }

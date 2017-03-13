@@ -3,5 +3,26 @@ package oop.task_03_homezoo2;
 /**
  * Created by Михаил on 13.03.2017.
  */
-public class Animal {
+class Animal {
+
+    enum Kind { amphibia, natatorial, flying}
+
+    private int weight;
+    private int legs;
+    private Kind kind;
+
+    public Animal(int weight, int legs, Kind kind) {
+        this.weight = weight;
+        this.legs = legs;
+        this.kind = kind;
+
+    }
+    public int getWeight(){
+        return weight;}
+
+    public int getLegs(){
+        return legs;}
+
+    public Kind getKind(){
+        return kind;}
 }
