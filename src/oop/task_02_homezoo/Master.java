@@ -8,6 +8,7 @@ public class Master {
     private String surname;
     private int phoneNumber;
 
+
     public Master(String name, String surname, int phoneNumber) {
         this.name = name;
         this.surname = surname;
@@ -22,4 +23,5 @@ public class Master {
     public int getPhoneNumber() {
         return phoneNumber;
     }
+    int phone = phoneNumber;
 }
