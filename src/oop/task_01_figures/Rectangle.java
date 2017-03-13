@@ -1,23 +1,26 @@
-package task_preInheritance.figures;
+package oop.task_01_figures;
 
 /**
- * Created by codefire on 04.03.17.
+ * Created by Михаил on 13.03.2017.
  */
-class Rectangle {
-    private double wight;
+public class Rectangle {
+    private double weight;
     private double height;
 
-    public Rectangle(double wight, double height) {
-        this.wight = wight;
+    public Rectangle(double weight, double height) {
+        this.weight = weight;
         this.height = height;
     }
-
-    public String info() {
-        double square=getWight()*getHeight();
-        return (Double.toString(square));
+    public double area() {
+        double area = getWeight() * getHeight();
+        return area;
     }
-    public double getWight(){
-        return this.wight;
+    public String toString() {
+        String R = "Прямоугольник " + getWeight() + " на " + getHeight() + " px с площадью " + area();
+        return R;
+    }
+    public double getWeight(){
+        return this.weight;
     }
     public double getHeight(){
         return this.height;
