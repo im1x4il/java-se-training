@@ -3,9 +3,9 @@ package proc.task_01_max2;
 import java.util.Scanner;
 
 /**
- * Created by Михаил on 13.03.2017.
+ * Created by Михаил on 14.03.2017.
  */
-public class Max2 {
+public class Max21 {
     public static void main(String[] args) {
         int a, b;
         a = new Scanner(System.in).nextInt();
@@ -13,7 +13,7 @@ public class Max2 {
 
 
         if (a < b) System.out.println(b);
-         else System.out.println(a);
+        else System.out.println(a);
 
 
     }
