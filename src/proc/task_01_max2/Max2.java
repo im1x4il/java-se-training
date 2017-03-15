@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * Created by Михаил on 14.03.2017.
  */
-public class Max21 {
+public class Max2 {
     public static void main(String[] args) {
         int a, b;
         a = new Scanner(System.in).nextInt();

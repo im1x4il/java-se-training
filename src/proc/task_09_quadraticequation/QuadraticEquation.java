@@ -3,11 +3,10 @@ package proc.task_09_quadraticequation;
 /**
  * Created by Михаил on 14.03.2017.
  */
-public class QuadraticEquation {
-    /*QuadraticEquation. Даны вещественные числа a, b и c, причем a отлично от 0.
+public class QuadraticEquation {/*QuadraticEquation. Даны вещественные числа a, b и c, причем a отлично от 0.
     Решить квадратное уравнение ax2 + bx + c = 0 или сообщить о том, что действительных решений нет.
     Квадратный корень числа в Java можно получить с помощью: double root = Math.sqrt(4); */
-    public static void main(String[] args) {
+    public static void main (String[] args) {
         double a = 3;
         double b = 5;
         double c = 1;
@@ -32,5 +31,6 @@ public class QuadraticEquation {
         else
             System.out.println("x2 = "+x2);
     }
+
 }
 
