@@ -1,26 +1,29 @@
-package proc.task_11_demo_do_while;
+package proc.task_10_demo_while;
 
 import java.util.Scanner;
 
 /**
  * Created by Михаил on 15.03.2017.
  */
-public class Demo_Do_While {
+public class DemoWhile2{
     public static void main(String[] args) {
         Scanner s;
         s = new Scanner(System.in);
         int i = s.nextInt();
         int g = s.nextInt();
         if (i >= g) {
-            do {
-                System.out.print(i + " ");
-                i--;
-            } while (i >= g);
+            while (i-1 != g) {
+                System.out.print(g + " ");
+                g++;
+            }
         } else {
-            do {
-                System.out.print(i + " ");
-                i++;
-            } while (i <= g);
+            while (i-1 != g) {
+                System.out.print(g + " ");
+                g--;
+
+            }
         }
+
     }
 }
+
