@@ -14,7 +14,8 @@ public class DemoWhile3 {
         int index=0;
         int array [] = new int[1000];
         if (i < g) {
-            while (i-1 != g) {
+
+            while (i != g) {
                 index++;
                 if (index %2==0) {
                     array[index]=g;
@@ -26,6 +27,7 @@ public class DemoWhile3 {
             while (i != g) {
                 index++;
                 if (index%2==0){
+
                     array[index]=g;
                     g++;
                 }

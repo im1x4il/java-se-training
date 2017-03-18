@@ -11,7 +11,7 @@ public class DemoWhile2{
         s = new Scanner(System.in);
         int i = s.nextInt();
         int g = s.nextInt();
-        if (i >= g) {
+        if (i-1 != g) {
             while (i-1 != g) {
                 System.out.print(g + " ");
                 g++;
