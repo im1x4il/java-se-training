@@ -14,8 +14,6 @@ public class Person implements Comparable {
     public int getAge() {return age;}
     public String getName() {return name;}
 
-
-
     @Override
     public int compareTo(Object o) {
         double y = 10.1;
